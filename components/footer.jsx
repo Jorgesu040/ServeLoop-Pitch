@@ -98,15 +98,9 @@ export function Footer() {
               <Link href="#contact" className="hover:text-[#e79601] transition-colors">
                 Contacto
               </Link>
-              <Link href="/privacy" className="hover:text-[#e79601] transition-colors">
-                Privacidad
-              </Link>
-              <Link href="/terms" className="hover:text-[#e79601] transition-colors">
-                Términos
-              </Link>
             </nav>
 
-            <div className="text-sm text-background/70">contacto@serveloop.com</div>
+            <div className="text-sm text-background/70">Próximamente</div>
           </div>
 
           <div className="mt-8 pt-8 border-t border-background/20 text-center text-sm text-background/70">
