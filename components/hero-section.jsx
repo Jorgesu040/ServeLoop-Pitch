@@ -58,7 +58,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Haz que cada turno sea más ágil. Los comensales piden y pagan desde su mesa. Tú aceleras el servicio.
+              Aumenta la rotación de mesas hasta un 20% y reduce esperas: tus clientes piden y pagan desde la mesa; tu equipo se enfoca en el servicio.
             </motion.p>
 
             {/* Quick bullets */}
@@ -83,7 +83,6 @@ export function HeroSection() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.6 + index * 0.1 }}
                     whileHover={{ scale: 1.05, y: -2, boxShadow: "0 10px 20px rgba(163, 23, 27, 0.1)" }}
-                    transition={{ duration: 0.2 }}
                   >
                     <Icon className={`h-5 w-5 ${item.color} flex-shrink-0`} />
                     <span className="text-sm font-medium">{item.text}</span>
@@ -131,7 +130,6 @@ export function HeroSection() {
                 animate={{ opacity: 1, scale: 1, rotateY: 0 }}
                 transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
                 whileHover={{ scale: 1.02, rotateY: 5 }}
-                transition={{ duration: 0.2 }}
               >
                 <div className="bg-white h-[600px] rounded-[1.75rem] overflow-hidden">
                   {/* Phone mockup content */}
@@ -181,7 +179,6 @@ export function HeroSection() {
                           animate={{ opacity: 1, x: 0 }}
                           transition={{ delay: 1.3 + index * 0.15 }}
                           whileHover={{ scale: 1.02, boxShadow: "0 4px 12px rgba(0,0,0,0.1)" }}
-                          transition={{ duration: 0.15 }}
                         >
                           <div className="flex gap-3">
                             <div

@@ -12,7 +12,7 @@ export function WhatWhyHowSection() {
     {
       title: "¿Para qué?",
       description:
-        "Queremos eliminar las esperas y mejorar la experiencia en bares y restaurantes. Con un simple QR, cualquier cliente puede pedir rápido, sin depender del camarero ni de procesos lentos.",
+        "Eliminar colas para pedir y pagar, reducir errores en toma de pedidos y aumentar la rotación de mesas. Con un simple QR, cualquier cliente pide rápido sin depender del camarero.",
     },
     {
       title: "¿Cómo?",

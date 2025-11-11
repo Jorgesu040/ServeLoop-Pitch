@@ -6,6 +6,7 @@ import { CanvaEmbedSection } from "@/components/canva-embed-section"
 import { BenefitsSection } from "@/components/benefits-section"
 import { HowItWorksSection } from "@/components/how-it-works-section"
 import { FeaturesSection } from "@/components/features-section"
+import { WhyDifferentSection } from "@/components/why-different-section"
 import { DemoSection } from "@/components/demo-section"
 import { SocialProofSection } from "@/components/social-proof-section"
 import { PricingSection } from "@/components/pricing-section"
@@ -29,6 +30,7 @@ export default function Home() {
       <HowItWorksSection />
       <FeaturesSection />
       <VideoDemoSection />
+      <WhyDifferentSection />
       <DemoSection />
       <SocialProofSection />
       <PricingSection />
