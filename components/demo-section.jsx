@@ -50,9 +50,8 @@ export function DemoSection() {
             className="inline-flex w-16 h-16 rounded-full bg-white/10 items-center justify-center mb-6"
             initial={{ opacity: 0, scale: 0 }}
             animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0 }}
-            transition={{ duration: 0.5, type: "spring" }}
+            transition={{ duration: 0.3, type: "spring" }}
             whileHover={{ scale: 1.1, rotate: 360 }}
-            transition={{ duration: 0.3 }}
           >
             <Smartphone className="h-8 w-8" />
           </motion.div>
@@ -79,13 +78,12 @@ export function DemoSection() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             transition={{ duration: 0.15 }}
           >
             <Button size="lg" className="bg-white text-[#a3171b] hover:bg-white/90 text-base font-semibold" asChild>
-              <Link href="/demo">Probar demo ahora</Link>
+              <Link href="https://serve-loop.vercel.app/">Probar demo ahora</Link>
             </Button>
           </motion.div>
 

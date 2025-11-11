@@ -10,6 +10,7 @@ import { DemoSection } from "@/components/demo-section"
 import { SocialProofSection } from "@/components/social-proof-section"
 import { PricingSection } from "@/components/pricing-section"
 import { FAQSection } from "@/components/faq-section"
+import { VideoDemoSection } from "@/components/video-demo-section"
 import { Footer } from "@/components/footer"
 import { motion } from "framer-motion"
 
@@ -27,6 +28,7 @@ export default function Home() {
       <BenefitsSection />
       <HowItWorksSection />
       <FeaturesSection />
+      <VideoDemoSection />
       <DemoSection />
       <SocialProofSection />
       <PricingSection />

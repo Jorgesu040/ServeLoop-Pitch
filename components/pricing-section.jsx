@@ -11,7 +11,7 @@ const plans = [
   {
     name: "Piloto",
     description: "Ideal para probar el sistema en tu negocio",
-    features: ["Hasta 5 mesas", "Menú digital completo", "Pedidos desde QR", "Gestión de pedidos", "Soporte por email"],
+    features: ["Hasta 4 mesas", "Menú digital completo", "Pedidos desde QR", "Gestión de pedidos", "Soporte por email"],
     cta: "Comenzar piloto",
   },
   {
@@ -22,7 +22,6 @@ const plans = [
       "Menú digital completo",
       "Pedidos y pagos integrados",
       "Panel de control avanzado",
-      "Integración TPV",
       "Análisis y reportes",
       "Soporte prioritario",
     ],
